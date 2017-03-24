@@ -16,41 +16,49 @@
     <div class="monitor">
       <img src="img/monitor.png">
     </div>
-    <div class="keyboard">
-      <img src="img/monitor.png" id="monitor">
-      <img src="img/keyboard.png" id="board">
-    </div>
 
     <button type="submit" class="goButton">Are you ready to find out which programming language is right for you? <br>  Click to begin...</button>
 
     <div class="Questions">
-      <h3>What size company are you interested in working for?</h3>
       <form id="Question1">
+        <h3>What size company are you interested in working for?</h3>
         <select class="form-control" id="Q1">
           <option value="23">small - individual clients</option>
           <option value="16">growing - maybe a startup</option>
           <option value="1">large - enterprise-level</option>
           <option value="8">monolithic - legacy corp.</option>
         </select>
-      <button type="submit" class="enterButton">ENTER</button>
+        <h3>How forgiving do you want your language to be?</h3>
+        <select class="form-control" id="Q2">
+          <option value="20">Kind of</option>
+          <option value="5">Not very</option>
+        </select>
+        <h3>Which would you rather spend your day doing?</h3>
+        <select class="form-control" id="Q3">
+          <option value="1">making apps</option>
+          <option value="23">using Word Press</option>
+          <option value="8">supporting "the man" (PC and Microsoft)</option>
+          <option value="16">building sites like Airbnb and Twitter</option>
+        </select>
+        <h3>What's your personal style?</h3>
+        <select class="form-control" id="Q4">
+          <option value="8">blazer and jeans</option>
+          <option value="23">flip flops and headphones</option>
+          <option value="1">cowboy hat</option>
+          <option value="16">Suicide Squad</option>
+        </select>
+        <h3>How challenged do you want to be while learning?</h3>
+        <select class="form-control" id="Q5">
+          <option value="23">easy peasy</option>
+          <option value="1">B for effort</option>
+          <option value="16">build a house out of mud</option>
+          <option value="8">climbing Mt. Everest</option>
+        </select>
+        <button type="submit" class="enterButton">ENTER</button>
       </form>
-
-
-      <!-- <div id="Q2">
-        <h3>How forgiving do you want your main language to be?</h3>
-        <form id="Question2">
-          <select class="form-control" id="Q2">
-            <option value="20">Kind of</option>
-            <option value="4">Not very</option>
-          </select>
-        <button type="submit" class="enterButton2">ENTER</button>
-        </form>
-      </div> -->
-
-
     </div>
 
-    <div class=well>
+    <div class=results>
       <div id="Java">
         <h2>You should look into the Java language</h2>
         <!-- <img src="img/java.jpg"> -->
@@ -67,13 +75,7 @@
         <h2>You should look into the PHP language</h2>
         <!-- <img src="img/java.jpg"> -->
       </div>
-
-
-
-
-
-
-        </div>
+    </div>
       </form>
   </body>
 </html>
