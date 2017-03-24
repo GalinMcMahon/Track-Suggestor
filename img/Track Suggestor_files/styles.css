@@ -11,7 +11,7 @@ body {
   position: fixed;
   left: 0px;
   top: 0px;
-  z-index: -3;
+  z-index: -2;
 }
 
 .monitor img {
@@ -20,35 +20,6 @@ body {
   margin-top: 2%;
   width: 96%;
   margin-left: 2%;
-  float: left;
-}
-
-.keyboard #monitor {
-  z-index: -2;
-  position: absolute;
-  margin-top: 2%;
-  width: 65%;
-  margin-left: 28%;
-  float: left;
-  /*display:none;*/
-}
-
-.keyboard #board {
-  z-index: -2;
-  position: absolute;
-  margin-top: 38%;
-  width: 45%;
-  margin-left: 20%;
-  float: left;
-}
-
-.form-control {
-position: absolute;
-margin-left: 23%;
-margin-top: 42.5%;
-width: 39%;
-length: 23%;
-height: 6%;
 }
 
 .goButton {
@@ -68,33 +39,18 @@ height: 6%;
   }
 }
 
-/*.Question-dropdown {
+.form-control {
   position: absolute;
   margin-left: 10%;
   margin-top: 60%;
   width: 25%;
-}*/
+}
 
-
-
-/*.Question-dropdown {
+.questions-monitor {
   position: absolute;
-  margin-left: 65%;
+  margin-left: 80%;
   margin-top: 20%;
   width: 50%;
   z-index: 1;
   color: white;
-}*/
-
-h3 {
-  position:fixed;
-  margin-left: 33%;
-  margin-top: 10%;
-  width: 55%;
-  z-index: 1;
-  color: white;
-}
-
-.Questions {
-  display: none;
 }
