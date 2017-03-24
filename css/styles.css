@@ -42,11 +42,20 @@ body {
   float: left;
 }
 
+.enterButton {
+  position: absolute;
+  margin-left: 52%;
+  margin-top: 42.5%;
+  width: 10%;
+  /*length: 23%;*/
+  height: 6%;
+}
+
 .form-control {
 position: absolute;
 margin-left: 23%;
 margin-top: 42.5%;
-width: 39%;
+width: 29%;
 length: 23%;
 height: 6%;
 }
@@ -96,5 +105,9 @@ h3 {
 }
 
 .Questions {
+  display: none;
+}
+
+.well {
   display: none;
 }
